@@ -7,7 +7,60 @@ body {
  
 }
 
-h1 {
-	color: red;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+drugi p {
+	float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+}
+.active {
+    background-color: #4CAF50;
+}
+.main{
+    margin-top: 50px;
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+.peti {
+	
+}
+.peti p:active {
+	border: 2px solid red;
+	top: 20px
+}
+div.main p {
+	margin: 1em .5em;
+	padding: 2em 3em;
+}
+div.sendbox p, h2 {
+	  margin: 2em 3em;
+	  padding: 2em 3em;
+}
